@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Roadmap from "./pages/Roadmap";
 import Profile from "./pages/Profile";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           element={<Profile />}
         />
       </Routes>
-      
+       <Footer/>
       </BrowserRouter>
     </>
   );
